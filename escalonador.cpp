@@ -51,7 +51,7 @@ void OrdenaChegada(Process *ordena){
     }
 }
 
-//Compara tempo de duração dos Processos
+//Compara tempo de duraÃ§Ã£o dos Processos
 bool Compara(const Process &p1, const Process &p2){
 	return (p1.timeDura <= p2.timeDura);
 }
